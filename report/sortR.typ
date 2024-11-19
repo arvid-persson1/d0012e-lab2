@@ -62,6 +62,6 @@ times, for a total cost of $3 dot.op T((3n)/4)$.
 This gives us the recurrence equation
 
 $ T(n) = cases(
-    O(1)               &"if" n lt.eq 4 ",",
-    3 dot.op T((3n)/4) &"otherwise."
+    O(1)                      &"if" n lt.eq 4 ",",
+    3 dot.op T((3n)/4) + O(1) &"otherwise."
 ) $
