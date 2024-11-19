@@ -20,7 +20,7 @@ Given the input $A = [a_0, a_1, dots.h a_(n-1)]$, do the following:
 
     - $M(L)$, i.e. the maximum value of the left split.
 
-    - $M(R)$, i.e. the maximum value of the left split.
+    - $M(R)$, i.e. the maximum value of the right split.
 
     - $M(A_m)$ for any subsequence $A_m$ that crosses the midpoint.
 
