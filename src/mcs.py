@@ -3,7 +3,7 @@ from math import inf, isclose
 from random import uniform
 from sys import stderr
 
-K = 5
+K = 8
 MIN = -10
 MAX = 10
 ITERATIONS = 10000

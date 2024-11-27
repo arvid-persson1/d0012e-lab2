@@ -52,9 +52,7 @@ be moved to another one.
 = Complexity
 
 Let $T(n)$ be the time complexity.
-
 For the base case, $T(n) = O(1)$ as $n$ is a bounded constant.
-
 In the general case, we sort a portion of size $(3n)/4$ a total of $3$
 times, for a total cost of $3 dot.op T((3n)/4)$.
 @total shows that no extra work is needed.
@@ -65,3 +63,7 @@ $ T(n) = cases(
     O(1)                      &"if" n lt.eq 4 ",",
     3 dot.op T((3n)/4) + O(1) &"otherwise."
 ) $
+
+By the master theorem, this solves to
+
+$ T(n) = Theta(n^(log_(4/3) 3)) approx Theta(n^3.82). $
