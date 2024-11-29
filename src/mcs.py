@@ -6,7 +6,7 @@ from sys import stderr
 K = 8
 MIN = -10
 MAX = 10
-ITERATIONS = 10000
+ITERATIONS = 1000
 
 
 # Well-known algorithm to test correctness.

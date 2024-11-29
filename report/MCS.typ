@@ -42,3 +42,21 @@ t(A) &= t(L) + t(R).
 $
 
 The result is $M(T)$.
+
+= Complexity
+
+Let $T(n)$ be the time complexity.
+For the base case, $T(n) = O(1)$ as $n = 1$.
+In the general case, we consider two portions, each half the size of the input,
+for a total cost of $2 dot.op T(n/2)$.
+
+This gives us the recurrence equation
+
+$ T(n) = cases(
+    O(1)                   &"if" n = 1 ",",
+    2 dot.op T(n/2) + O(1) &"otherwise."
+) $
+
+By the master theorem, this solves to
+
+$ T(n) = Theta(n^(log_(2) 2)) = Theta(n). $
